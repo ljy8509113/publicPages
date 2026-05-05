@@ -1,0 +1,45 @@
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local environment
+local.properties
+*.env
+*.env.*
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.navigation/
+
+# Kotlin
+.kotlin/
+
+# Android build outputs
+tmp/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+mapping.txt
+lint-results*.xml
+lint-results*.html
+
+# Signing keys
+keystore/
+*.jks
+*.keystore
+*.p12
+*.pem
+*publisher-credentials*.json
+*service-account*.json
+play-account*.json
+
+# OS files
+.DS_Store
+Thumbs.db
